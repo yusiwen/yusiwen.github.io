@@ -10,60 +10,60 @@
 /* Print =================================================== */
 
 @media print {
-	
-	// 1. ROOT 					==============================
 
-	* {
-	background : transparent !important;
-	color : black !important;
-	box-shadow : none !important;
-	text-shadow : none !important;
-	filter : none !important;
-	-ms-filter : none !important; }
+  // 1. ROOT          ==============================
 
-	@page {
-	margin : 0.5cm; }
+  * {
+  background : transparent !important;
+  color : black !important;
+  box-shadow : none !important;
+  text-shadow : none !important;
+  filter : none !important;
+  -ms-filter : none !important; }
 
-	// 2. TYPOGRAPHY 			==============================
+  @page {
+  margin : 0.5cm; }
 
-	h2, h3 {
-	orphans : 3;
-	widows : 3;
-	page-break-after : avoid; }
+  // 2. TYPOGRAPHY      ==============================
 
-	p {
-	orphans : 3;
-	widows : 3; }
+  h2, h3 {
+  orphans : 3;
+  widows : 3;
+  page-break-after : avoid; }
 
-	pre, blockquote {
-	border : 1px solid $gray;
-	page-break-inside : avoid; }
+  p {
+  orphans : 3;
+  widows : 3; }
 
-	abbr[title]:after {
-	content: " (" attr(title) ")"; }
+  pre, blockquote {
+  border : 1px solid $gray;
+  page-break-inside : avoid; }
 
-	// 3. COLOUR 				==============================
+  abbr[title]:after {
+  content: " (" attr(title) ")"; }
 
-	a, a:visited {
-	text-decoration : underline; }
+  // 3. COLOUR        ==============================
 
-	a[href]:after {
-	content : " (" attr(href) ")"; }
+  a, a:visited {
+  text-decoration : underline; }
 
-	a[href^="javascript:"]:after,
-	a[href^="#"]:after {
-	content : ""; }
+  a[href]:after {
+  content : " (" attr(href) ")"; }
 
-	// 4. TEXTURE 				==============================
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+  content : ""; }
 
-	img {
-	max-width : 100% !important;
-	page-break-inside : avoid; }
+  // 4. TEXTURE         ==============================
 
-	thead {
-	display : table-header-group; }
+  img {
+  max-width : 100% !important;
+  page-break-inside : avoid; }
 
-	tr {
-	page-break-inside : avoid; }
+  thead {
+  display : table-header-group; }
+
+  tr {
+  page-break-inside : avoid; }
 
 }

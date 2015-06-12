@@ -17,7 +17,11 @@ title: 斯文怪谈
             <a href="{{ post.url }}">
                 <h3>{{ post.title }}</h3>
                 <time>{{ post.date | date: "%d %B %Y" }}</time>
-                <div>{{ post.content |truncatehtml | truncatewords: 30 }}</div>
+                <div>{{ post.content | split:'<!--break-->' | first }}
+                  {% if post.content contains '<!--break-->' %}
+                  <a href="{{ post.url }}">Read more...</a>
+                  {% endif %}
+                </div>
             </a>
           </li>
         {% endfor %}

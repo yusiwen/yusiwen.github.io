@@ -21,7 +21,7 @@
  * Each tooltip is made of 2 parts:
  * 	1) body (:after)
  * 	2) arrow (:before)
- * 
+ *
  * Classes added:
  * 	1) hint
  */
@@ -133,13 +133,13 @@
  * source: hint-color-types.scss
  *
  * Contains tooltips of various types based on color differences.
- * 
+ *
  * Classes added:
  * 	1) hint--error
  * 	2) hint--warning
  * 	3) hint--info
  * 	4) hint--success
- * 	
+ *
  */
 /**
  * Error
@@ -205,10 +205,10 @@
  * source: hint-always.scss
  *
  * Defines a persisted tooltip which shows always.
- * 
+ *
  * Classes added:
  * 	1) hint--always
- * 	
+ *
  */
 .hint--always:after, .hint--always:before {
   opacity: 1; }
