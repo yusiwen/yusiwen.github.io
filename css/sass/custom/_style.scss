@@ -32,6 +32,34 @@ hr{
   border-bottom: none;
 }
 
+
+hr.endofpost{
+  font-family: Arial, sans-serif;
+  text-align: center; /* horizontal centering */
+  line-height: 1px; /* vertical centering */
+  height: 1px; /* gap between the lines */
+  font-size: 1em; /* choose font size you like */
+  border-width: 1px 0; /* top and bottom borders */
+  border-style: solid;
+  border-color: #CCCCCC;
+  margin: 20px 0px; /* 20px space above/below, 0px left/right */
+
+  /* ensure 1px gap between borders */
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+hr.endofpost:after{
+  content: "§"; /* section sign */
+  color: #999;
+  background-color: #F9F7F4;
+  display: inline; /* for vertical centering and background knockout */
+  padding: 0 0.5em; /* size of background color knockout */
+}
+
 blockquote{
   border-left: 5px solid #D8D8D8;
   background-color: #eee;
@@ -252,8 +280,9 @@ blockquote{
     a{
       border-bottom: 1px dotted rgba(162,162,162,0.8);
     }
-
   }
+
+
 }
 
 // 4. Footer
