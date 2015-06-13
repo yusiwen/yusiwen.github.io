@@ -127,7 +127,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
-  nokogiri
   sass
 
 BUNDLED WITH
