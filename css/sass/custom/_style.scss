@@ -1,8 +1,6 @@
 /*
-
 Contents
 ================================
-
 1. Shared Styles
   a. Fonts
   b. Extends
@@ -12,13 +10,11 @@ Contents
   b. Post Style
 4. Footer
 ================================
-
 */
 
-
-// 1. Shared Styles
+// 1. Shared Styles {{{
 // --------------------------------------------------
-
+// Common {{{
 body{
   background-color: rgb(134, 165, 76);
 }
@@ -32,65 +28,63 @@ hr{
   border-bottom: none;
 }
 
-
-hr.endofpost{
-  font-family: Arial, sans-serif;
-  text-align: center; /* horizontal centering */
-  line-height: 1px; /* vertical centering */
-  height: 1px; /* gap between the lines */
-  font-size: 1em; /* choose font size you like */
-  border-width: 1px 0; /* top and bottom borders */
-  border-style: solid;
-  border-color: #CCCCCC;
-  margin: 20px 0px; /* 20px space above/below, 0px left/right */
-
-  /* ensure 1px gap between borders */
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  -ms-box-sizing: content-box;
-  -o-box-sizing: content-box;
-  box-sizing: content-box;
-}
-
-hr.endofpost:after{
-  content: "§"; /* section sign */
-  color: #999;
-  background-color: #F9F7F4;
-  display: inline; /* for vertical centering and background knockout */
-  padding: 0 0.5em; /* size of background color knockout */
-}
-
 blockquote{
   border-left: 5px solid #D8D8D8;
   background-color: #eee;
 }
 
-::-moz-selection {
+::-moz-selection{
   color: #fff;
   text-shadow: none;
   background: #778da8;
 }
 
-::selection {
+::selection{
   color: #fff;
   text-shadow: none;
   background: #778da8;
 }
+// }}}
 
-// 1. a Font
+// 1.a Font {{{
 // --------------------------------------------------
-
-
-@font-face {
+// Fonts used as titles
+@font-face{
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   src: local('Raleway'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
+  unicode-range: U+00-024F;
 }
 
-// 1. b Extends
-// --------------------------------------------------
+@font-face{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sans');
+  unicode-range: U+4E00-9FFF;
+}
 
+// Fonts used as texts
+@font-face{
+  font-family: 'Texts';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Georgia'), local('Times'), local('Serif');
+  unicode-range: U+00-024F;
+}
+
+@font-face{
+  font-family: 'Texts';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sans');
+  unicode-range: U+4E00-9FFF;
+}
+// }}}
+
+// 1.b Extends {{{
+// --------------------------------------------------
 .a-hover{
   color: $grayDark;
   @include transition(0.3s linear);
@@ -102,9 +96,28 @@ blockquote{
   }
 }
 
-// 2. Header Section
-// --------------------------------------------------
+// Custom styles for code highlight by pygments
+.highlight{
 
+  .lineno{
+    color: #BEBEBE;
+    display: inline-block;
+    padding: 0 5px;
+    border-right: 1px solid #BEBEBE;
+  }
+
+  pre code{
+    display: block;
+    white-space: pre;
+    overflow-x: auto;
+    word-wrap: normal;
+  }
+}
+// }}}
+// }}} End of 1.Shared Styles
+
+// 2. Header Section {{{
+// --------------------------------------------------
 .content{
   background-color: #f9f7f4;
 
@@ -132,12 +145,10 @@ blockquote{
     color: $grayLight;
   }
 }
+// }}} End of 2. Header Section
 
-
-
-// 3. Entries
+// 3. Entries {{{
 // --------------------------------------------------
-
 .entries{
 
   list-style: none;
@@ -175,19 +186,16 @@ blockquote{
   }
 
   div{
-    font-family: georgia, times, serif;
+    font-family: 'Texts';
     line-height: 1.6em;
     font-size: 1.15em;
     color: $gray;
   }
 }
 
-
-// 3. a Pagination
+// 3.a Pagination {{{
 // --------------------------------------------------
-
 .pages{
-
   list-style: none;
 }
 
@@ -204,12 +212,11 @@ blockquote{
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 3em;
 }
+// }}}
 
-// 3. b Post Style
+// 3.b Post Style {{{
 // --------------------------------------------------
-
 .home-icon{
-
    font-size: 2em;
    margin: 1.5em 0 -1.1em 1em;
    float: left;
@@ -223,8 +230,35 @@ blockquote{
    }
 }
 
-.post{
+// Custom <hr> at the end of every post.
+hr.endofpost{
+  font-family: Arial, sans-serif;
+  text-align: center; /* horizontal centering */
+  line-height: 1px; /* vertical centering */
+  height: 1px; /* gap between the lines */
+  font-size: 1em; /* choose font size you like */
+  border-width: 1px 0; /* top and bottom borders */
+  border-style: solid;
+  border-color: #CCCCCC;
+  margin: 20px 0px; /* 20px space above/below, 0px left/right */
 
+  /* ensure 1px gap between borders */
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+hr.endofpost:after{
+  content: "§"; /* section sign */
+  color: #999;
+  background-color: #F9F7F4;
+  display: inline; /* for vertical centering and background knockout */
+  padding: 0 0.5em; /* size of background color knockout */
+}
+
+.post{
   width: 48em;
   float: right;
   margin-top: -2em;
@@ -251,7 +285,7 @@ blockquote{
   }
 
   section{
-    font-family: georgia,times,serif;
+    font-family: 'Texts';
     line-height: 1.9em;
     font-size: 1.15em;
     color: darken($grayLight, 10%);
@@ -270,6 +304,7 @@ blockquote{
 
     li{
       font-size: 0.8em;
+
       p{
         font-size: 0.8em;
         line-height: 1em;
@@ -281,13 +316,12 @@ blockquote{
       border-bottom: 1px dotted rgba(162,162,162,0.8);
     }
   }
-
-
 }
+// }}}
+// }}} End of 3. Entries
 
-// 4. Footer
+// 4. Footer {{{
 // --------------------------------------------------
-
 footer .container{
   color: $white;
   padding: 2em 0;
@@ -299,3 +333,4 @@ footer .container{
     text-decoration: underline;
   }
 }
+// }}}
