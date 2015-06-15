@@ -23,10 +23,9 @@ title: 哲学笔记 1# 萨特
 >-- *《沉默的共和国》（La République du silence），1944*
 
 ---
+>On nous a enseigné à le prendre au sérieux: ce n’est ni notre faute ni notre mérite si nous avons vécu en un temps où la la torture était un fait quotidien. Châteaubriant, Oradour, la rue des Saussaies, Tulle, Dachau, Auschwitz, tout nous démontrait que le Mal n’est pas une apparence, que la connaissance par les causes ne le dissipe pas, qu’il ne s’oppose pas au Bien comme une idée confuse à une idée distincte, qu’il n'est pas l'effet de passions qu'on pourrait guérir, d’une peur qu'on pourrait surmonter, d’un égarement passager qu’on pourrait excuser, d’une ignorance qu’on pourrait éclairer, qu’il ne peut d’aucune façon être tourné, repris, réduit, assimilé à l’humanisme idéaliste, comme cette ombre dont Leibniz écrit qu’elle est nécessaire à l'éclat du jour... Un jour viendra peut-être où une époque heureuse, se penchant sur le passé, verra dans ces souffrances et dans ces hontes un des chemins qui conduisirent à sa Paix. Mais nous n'étions pas du côté de l’Histoire faite; nous étions, je l'ai dit, *situés* de telle sorte que chaque minute vécue nous apparaissait comme irréductible. Nous en vînmes donc, en dépit de nous-mêmes, à cette conclusion, qui paraîtra choquante aux belles âmes: le Mal ne peut pas se racheter.
 
->人们教会我们严肃地对待邪恶。如果我们生活在一个充满痛苦的时期，那么这既不是我们的过错，也不是我们的功劳。夏朵布里昂、奥拉杜尔、柳树林大街、达豪、奥斯维辛（注：前两地纳粹屠杀该地的居民，柳树林大街是巴黎盖世太保总部，后两地是著名的集中营）都向我们说明，邪恶并不是一种现象，知道它的原因并不能驱散它；邪恶与善良相对并不象混乱的观念和清晰的观念的对立一样；也不是可能被治愈的情感、可能被克服的恐惧、可能被原谅的一时过失以及可以被开导的无知所造成的后果；邪恶是不能被转移的，被召回，被减少或与理性主义的人道主义掺和在一起的，就像莱布尼兹所描写的阴影一样，有它才能有白昼的耀眼光芒……
-
->也许有一天，幸福的时代到来时，人们回首往事，就会看到在这痛苦和羞辱中，有一条通向和平的道路。但是，我们并不是站在已经铸成的历史的一边。正如我说过的，我们当时处于这样一种状况中，简直是苟延残喘，度日如年。因此我们不禁得出一个似乎会使那些具有高尚灵魂的人感到震惊的结论：邪恶是不能被拯救的。
+>人们教会我们严肃地对待邪恶。如果我们生活在一个充满痛苦的时期，那么这既不是我们的过错，也不是我们的功劳。夏朵布里昂、奥拉杜尔、柳树林大街、达豪、奥斯维辛（注：前两地纳粹屠杀该地的居民，柳树林大街是巴黎盖世太保总部，后两地是著名的集中营）都向我们说明，邪恶并不是一种现象，知道它的原因并不能驱散它；邪恶与善良相对并不象混乱的观念和清晰的观念的对立一样；也不是可能被治愈的情感、可能被克服的恐惧、可能被原谅的一时过失以及可以被开导的无知所造成的后果；邪恶是不能被转移的，被召回，被减少或与理性主义的人道主义掺和在一起的，就像莱布尼兹所描写的阴影一样，有它才能有白昼的耀眼光芒 …… 也许有一天，幸福的时代到来时，人们回首往事，就会看到在这痛苦和羞辱中，有一条通向和平的道路。但是，我们并不是站在已经铸成的历史的一边。正如我说过的，我们当时处于这样一种状况中，简直是苟延残喘，度日如年。因此我们不禁得出一个似乎会使那些具有高尚灵魂的人感到震惊的结论：邪恶是不能被拯救的。
 
 >-- *《什么是文学？》（Qu'est ce que la littérature?），1947*
 
