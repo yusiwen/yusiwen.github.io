@@ -1,7 +1,9 @@
 ---
 layout: post_page
-title: '哲学笔记 2# 萨特（续）'
+title: '哲学笔记 2#'
 ---
+
+### 萨特（续）
 
 > _Die verfluchte Huhre, Vernunft_ -- Martin Luther
 
