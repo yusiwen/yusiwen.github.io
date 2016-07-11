@@ -3,11 +3,15 @@ layout: post_page
 title: '哲学随笔2#'
 ---
 
-# 如今我们离自己越来越远 -- 和朋友聚餐后的随想
+### 如今我们离自己越来越远
+
+> 和朋友聚餐后的随想
 
 今天和两个朋友在龙之梦海吃胡喝了一顿，聊聊了工作和生活，很是开心。饭后搭朋友的车回家，离开喧嚣的闹市在突然安静下来的车里，他一边开车一边和我感慨他如今做生意的不易、整日奔波的劳累、与各色各样人来人往的劳心、居家琐事的烦心。"在这个世上混，没有朋友不行啊，我总觉得朋友认识的太少，可有时又觉得维护这纷繁复杂的关系网让人身心俱疲，等我赚够了钱就去独自大山里盖个房子了此余生。"他淡淡地说，"你说，人这一辈子忙忙碌碌地工作，做着同样一件差事，老了以后干不动了也没人理你了，这辈子就白白给人做了铺路石，嗝屁的时候不甘心啊......""唉，兄弟，人在江湖，身不由己啊！"我只能无奈地劝道，心中不免苦笑：其实我自己又何尝不是常常这般无奈地感慨呢?
 
-我们生活在这纷扰变换的尘世之中，身边充斥着形形色色的人，在现代这样一个复杂的社会之中，我们自身的真实性（authenticity）往往需要从别人的身上反应出来才能被我们感知。我这几天重读《追忆似水年华》，普鲁斯特曾这样写道：
+<!-- break -->
+
+ 我们生活在这纷扰变换的尘世之中，身边充斥着形形色色的人，在现代这样一个复杂的社会之中，我们自身的真实性（authenticity）往往需要从别人的身上反应出来才能被我们感知。我这几天重读《追忆似水年华》，普鲁斯特曾这样写道：
 
 > "Mais même au point de vue des plus insignifiantes choses de la vie, nous ne sommes pas un tout matériellement constitué, identique pour tout le monde et dont chacun n'a qu'à aller prendre connaissance comme d'un cahier des charges ou d'un testament; notre personnalité sociale est une création de la pensée des autres.
 
