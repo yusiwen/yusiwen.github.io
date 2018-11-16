@@ -14,4 +14,3 @@ highlighter: pygments
 github: [Repository metadata]
 
 exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
-
