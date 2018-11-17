@@ -9,7 +9,7 @@ markdown: redcarpet
 redcarpet:
     extensions: [footnotes]
 
-highlighter: pygments
+highlighter: rouge
 
 github: [Repository metadata]
 
