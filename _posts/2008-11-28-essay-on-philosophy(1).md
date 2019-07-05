@@ -1,6 +1,7 @@
 ---
 layout: post_page
 title: '哲学随笔1#'
+categories: '哲学'
 ---
 
 ### 恢复哲学的尊严

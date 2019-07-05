@@ -1,6 +1,7 @@
 ---
 layout: post_page
 title: '哲学随笔2#'
+categories: '哲学'
 ---
 
 ### 如今我们离自己越来越远

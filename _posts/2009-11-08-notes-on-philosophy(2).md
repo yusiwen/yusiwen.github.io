@@ -1,6 +1,7 @@
 ---
 layout: post_page
 title: '哲学笔记 2#'
+categories: '哲学'
 ---
 
 ### 萨特（续）

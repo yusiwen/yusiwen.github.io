@@ -11,14 +11,7 @@
   <link rel="author" href="/humans.txt">
   <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="/assets/css/style.css">
-  <!--[if IE 7]>
-      <html class="ie7">
-      <link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.min.css">
-    <![endif]-->
-  <!--[if IE 8]><html class="ie8"> <![endif]-->
-  <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
 
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed.png">
@@ -28,6 +21,8 @@
 </head>
 
 <body>
+
+  {% include sidebar.html %}
 
   <!-- Header
       ================================================== -->
@@ -52,6 +47,8 @@
   <a href="https://github.com/yusiwen"><img style="position: absolute; top: 0; right: 0; border: 0;"
       src="/assets/img/github-ribbon.png" alt="Fork me on GitHub"
       data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
+
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
   <!-- Javascripts
       ================================================= -->

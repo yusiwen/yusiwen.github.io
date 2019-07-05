@@ -1,6 +1,7 @@
 ---
 layout: post_page
 title: '随笔1#'
+categories: '随笔'
 ---
 
 ### 我们为何停留

@@ -1,6 +1,7 @@
 ---
 layout: post_page
 title: '哲学笔记 3#'
+categories: '哲学'
 ---
 
 ### 海德格尔
