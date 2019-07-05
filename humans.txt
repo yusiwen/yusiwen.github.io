@@ -1,21 +1,20 @@
 /* TEAM */
 
-Your title: Your name.
-Site: email, link to a contact form, etc.
-Twitter: your Twitter username.
-Location: City, Country.
+Your title: Siwen Yu
+Site: yusiwen@gmail.com
+Twitter: yusiwen
+Location: Shanghai, China
 
 
 /* THANKS */
 
 HTML5 Muffin
-This is a Frappuccino Blog
-Name: name or url
+Starbucks Frappuccino 
 
 
 /* SITE */
 
-Last update: YYYY/MM/DD
-Standards: HTML5, CSS3,..
-Components: Modernizr, jQuery, etc.
-Software: Software used for the development
+Last update: 2019/07/05
+Standards: HTML5, CSS3, SASS
+Components: Modernizr, Bootstrap
+Software: Visual Studio Code, Ubuntu, Jekyll, Sass, JavaScript
