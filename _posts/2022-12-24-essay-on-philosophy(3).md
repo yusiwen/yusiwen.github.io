@@ -1,4 +1,3 @@
-
 ---
 layout: post_page
 title: '哲学随笔3#'
