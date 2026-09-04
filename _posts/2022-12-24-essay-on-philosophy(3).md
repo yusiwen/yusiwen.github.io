@@ -1,7 +1,7 @@
 ---
 layout: post_page
 title: '哲学随笔3#'
-categories: '哲学','AI'
+categories: '哲学'
 ---
 
 ### 人工智能与黑格尔：被忽视的对话
