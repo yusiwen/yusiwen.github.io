@@ -345,15 +345,26 @@ footer .container{
 
 // Single-column layout on small screens (roughly <= 768px).
 @media only screen and (max-width: 48em) {
+  // Reserve vertical space for the fixed hamburger toggle at top-left.
+  main.container,
+  main.content > .container {
+    padding-top: 2.75rem;
+  }
+
   // Article: drop the fixed 48em width + right float so it fills the width.
   .post {
     width: auto;
     float: none;
     margin-top: 0;
   }
+  .post h2 {
+    font-size: 2.4em;
+    padding: 0.5em 0 0.2em;
+  }
 
+  // Hide the home icon on mobile — the hamburger menu already has a Home link.
   .home-icon {
-    margin: 1em 0 0.5em 0.25em;
+    display: none;
   }
 
   // Shrink the large page heading + subtitle.
