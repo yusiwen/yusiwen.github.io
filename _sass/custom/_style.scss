@@ -20,7 +20,11 @@ body{
 }
 
 main.container, main.content > .container{
-  width:58em;
+  width: 100%;
+  max-width: 58em;
+  margin: 0 auto;
+  padding: 0 1em;
+  box-sizing: border-box;
 }
 
 hr{
@@ -332,6 +336,52 @@ footer .container{
   a{
     color: $white;
     text-decoration: underline;
+  }
+}
+// }}}
+
+// 5. Responsive / Mobile {{{
+// --------------------------------------------------
+
+// Single-column layout on small screens (roughly <= 768px).
+@media only screen and (max-width: 48em) {
+  // Article: drop the fixed 48em width + right float so it fills the width.
+  .post {
+    width: auto;
+    float: none;
+    margin-top: 0;
+  }
+
+  .home-icon {
+    margin: 1em 0 0.5em 0.25em;
+  }
+
+  // Shrink the large page heading + subtitle.
+  .content h1 {
+    font-size: 2.6em;
+    margin-top: 0.5em;
+  }
+  .content .sub-title {
+    font-size: 1.2em;
+    margin: 0.4em 0 1.5em;
+  }
+
+  // Post list: let the date wrap instead of floating right.
+  .entries time {
+    float: none;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 0.5em;
+  }
+  .entries li {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.2em;
+  }
+
+  // Hide the GitHub ribbon so it doesn't cover content on narrow screens.
+  .github-ribbon,
+  a[href="https://github.com/yusiwen"] > img {
+    display: none;
   }
 }
 // }}}
