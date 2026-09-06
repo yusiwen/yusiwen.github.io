@@ -29,3 +29,7 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
+gem "nokogiri", "1.19.3"
+gem "concurrent-ruby", "1.3.7"
+gem "faraday", "2.14.3"
+gem "addressable", "2.9.0"

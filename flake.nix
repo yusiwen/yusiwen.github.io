@@ -12,7 +12,7 @@
       devShells = nixpkgs.lib.genAttrs systems (system:
         let
           pkgs = nixpkgs.legacyPackages.${system};
-          ruby = pkgs.ruby_3_1;
+          ruby = pkgs.ruby_3_2;
         in {
           default = pkgs.mkShell {
             packages = [
