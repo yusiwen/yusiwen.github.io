@@ -17,6 +17,11 @@ Contents
 // Common {{{
 body{
   background-color: rgb(134, 165, 76);
+  // Sticky footer: flex column so the content area grows to fill the viewport
+  // and pushes the footer to the very bottom (even on short pages).
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 main.container, main.content > .container{
@@ -125,10 +130,19 @@ blockquote{
 // --------------------------------------------------
 .content{
   background-color: #f9f7f4;
+  // Grow to fill the remaining viewport height (flex item of the body column),
+  // so the footer is always pushed to the bottom of the page.
+  flex: 1 0 auto;
 
   & > .container{
      min-height: 58em;
   }
+}
+
+// Pages (e.g. 404.html) that place a bare .container directly under <body>
+// also need to grow, so the footer stays pinned to the bottom there too.
+body > .container{
+  flex: 1 0 auto;
 }
 
 .content {
@@ -327,6 +341,12 @@ hr.endofpost:after{
 
 // 4. Footer {{{
 // --------------------------------------------------
+footer{
+  // Keep the footer at a fixed height (its own content height) and never let
+  // the flex layout stretch it; it stays pinned to the bottom of the page.
+  flex-shrink: 0;
+}
+
 footer .container{
   color: $white;
   padding: 2em 0;
