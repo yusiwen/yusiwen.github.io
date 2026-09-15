@@ -136,6 +136,8 @@ blockquote{
 
   & > .container{
      min-height: 58em;
+     // Positioning context for the absolutely placed `.home-icon` on post pages.
+     position: relative;
   }
 }
 
@@ -236,13 +238,19 @@ body > .container{
 // 3.b Post Style {{{
 // --------------------------------------------------
 .home-icon{
+   // Taken out of the flow so it does not consume any width inside the
+   // container. It hovers just outside the article's left edge, in the empty
+   // margin between the viewport edge and the centred container.
+   position: absolute;
+   left: -3.25em;
+   top: 2.5em;
    font-size: 2em;
-   margin: 1.5em 0 -1.1em 1em;
-   float: left;
+   margin: 0;
    background-color: $greenSpotify;
    padding: 0.65em;
    @include border-radius(2em);
-
+   // No fade on the icon itself: `.home-icon a` already carries the shared
+   // `.a-hover` fade, so the two would otherwise multiply.
    a{
     @extend .a-hover;
     color: $white;
@@ -278,9 +286,11 @@ hr.endofpost:after{
 }
 
 .post{
-  width: 48em;
-  float: right;
-  margin-top: -2em;
+  // Fill the container's content box so the article column lines up exactly
+  // with the home page's post list (both 56em). The fixed 48em width and the
+  // right float used to make the article 8em narrower than the home page.
+  width: 100%;
+  margin-top: 0;
 
   h5{
     margin:0.4em 0 2.5em 0;
@@ -371,10 +381,9 @@ footer .container{
     padding-top: 2.75rem;
   }
 
-  // Article: drop the fixed 48em width + right float so it fills the width.
+  // Article: the width is already 100% at every breakpoint (see .post), so
+  // only the type scale and spacing need to shrink here.
   .post {
-    width: auto;
-    float: none;
     margin-top: 0;
   }
   .post h2 {
