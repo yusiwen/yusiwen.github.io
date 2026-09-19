@@ -330,12 +330,17 @@ hr.endofpost:after{
   }
 
   .footnotes{
+    // Separator between the article body and the notes.
+    margin-top: 3em;
+    padding-top: 1.2em;
+    border-top: 1px solid lighten($grayLight, 20%);
 
     li{
       font-size: 0.8em;
 
       p{
-        font-size: 0.8em;
+        // Keep note text at the li size: a second 0.8em here compounded to 0.64em.
+        font-size: 1em;
         line-height: 1em;
         margin: 0 0 5px;
       }
