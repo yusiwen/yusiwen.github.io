@@ -1,6 +1,6 @@
 ---
 layout: post_page
-title: '哲学随笔11#'
+title: '哲学随笔12#'
 categories: ['哲学', 'AI']
 ---
 
